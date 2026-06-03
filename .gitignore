@@ -16,3 +16,7 @@ Thumbs.db
 # 任何從 Gemini Gems 解析出的資料都不應進版控
 gems_parsed*.json
 migration_state.json
+
+# 子 agent 委派產物（完整 log 留本機備查，不進版控）
+_delegate_*.log
+RESULT.md
