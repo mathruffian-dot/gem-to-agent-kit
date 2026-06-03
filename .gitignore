@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 測試/暫存產物
+_test_*.json
+*.tmp
+
+# 系統檔
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# 使用者私人資料（絕不上傳）
+# 任何從 Gemini Gems 解析出的資料都不應進版控
+gems_parsed*.json
+migration_state.json
