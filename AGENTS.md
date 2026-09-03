@@ -18,7 +18,7 @@
 6. **判斷相依**：對照 `deps_matrix.md`，偵測缺什麼工具，**確認後**才安裝。
 7. **建 project**：用 `templates/` 在使用者硬碟建一個升級版 project（標準骨架）。
 8. **煙霧測試**：產出後跑一次確認可動。
-9. **生圖 adapter**：依當前 agent 套用 `adapters/`（Antigravity→Nano Banana Pro／Codex→image 2／Claude·OpenCode→API）。
+9. **生圖 adapter**：依當前 agent 套用 `adapters/`（Antigravity→Nano Banana Pro／ChatGPT App（原 Codex）→內建 imagegen／Claude·OpenCode→API）。
 10. **升全域？**：詢問是否把 skill 升級為全域，確認後依 agent 安裝。
 11. **記錄狀態**：更新 `migration_state.json`，可續跑、不重複。
 

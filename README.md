@@ -1,5 +1,7 @@
 # Gem → Agent 升級導引包（gem-to-agent-kit）
 
+> ⚠️ **本 kit 已由 [gem-to-skill-kit](https://github.com/mathruffian-dot/gem-to-skill-kit) 取代**（AntiGravity 2 的 `.agents/skills` 路線）。這裡保留給仍在用舊版 Antigravity 的人參考。
+
 把你在 **Google Gemini 的 Gem**，升級成可讀檔、可跑程式、可生圖、可批次的 **Agent 工作流**。
 主打 **Google Antigravity**（生圖用內建 Nano Banana Pro），同時支援 Codex / Claude Code / OpenCode。
 
@@ -30,8 +32,8 @@ gem-to-agent-kit/
 ## 支援平台
 | Agent | 生圖 | 全域 skill |
 |---|---|---|
-| Antigravity（主要）| 內建 Nano Banana Pro | `~/.gemini/skills/` |
-| Codex | 內建 image 2 | 依 Codex |
+| Antigravity（主要）| 內建 Nano Banana Pro | `~/.agents/skills/`（AntiGravity 2） |
+| ChatGPT App（原 Codex）| 內建 imagegen | 依 ChatGPT App |
 | Claude Code | 接 API（gpt-image 等）| `~/.claude/skills/` |
 | OpenCode | 接 API | 依 OpenCode |
 

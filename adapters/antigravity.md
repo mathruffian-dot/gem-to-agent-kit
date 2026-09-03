@@ -8,10 +8,10 @@
 
 ## Skill / workflow 位置
 - 工作區：`<project>/.agents/skills/<name>/SKILL.md`、`<project>/.agents/workflows/<name>.md`
-- 全域：`~/.gemini/skills/<name>/SKILL.md`
+- 全域：`~/.agents/skills/<name>/SKILL.md`（AntiGravity 2）
 
 ## 全域升級流程
-先建工作區 skill → 測試 → 詢問使用者 → 確認後複製到 `~/.gemini/skills/`。
+先建工作區 skill → 測試 → 詢問使用者 → 確認後複製到 `~/.agents/skills/`。
 
 ## 備註
 - 這是本 kit 的第一級目標：範本與優化都以 Antigravity 為準。
